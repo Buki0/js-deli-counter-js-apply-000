@@ -18,8 +18,8 @@ function currentLine(line){
   else{
     const nameWithNumbers=[];
     for(let i=0;i<line.length;i++){
-      nameWithNumbers.push(`${i+1}. ${line[i]}`);// 
+      nameWithNumbers.push(`${i+1}. ${line[i]}`);//
     }
-    return `The line is currently: ${nameWithNumbers.join(', ')}`; 
+    return `The line is currently: ${nameWithNumbers.join(', ')}`;
   }
 }
